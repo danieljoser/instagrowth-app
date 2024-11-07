@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['@mantine/core', '@mantine/hooks', '@mantine/form'],
     
   },
-  basePath: "/instagrowth-appgit",
+  basePath: "/InstagrowthApp",
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
 };
