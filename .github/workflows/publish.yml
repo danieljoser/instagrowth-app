@@ -36,7 +36,10 @@ jobs:
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          
+          name: my-artifact
+          path: my_file.txt
+          retention-days: 5
 
   deploy:
     environment:
