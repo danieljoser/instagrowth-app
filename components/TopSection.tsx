@@ -16,10 +16,10 @@ const TopSection = () => {
     <section>
       {/* Desktop view */}
       <div className="sm:flex sm:flex-col hidden">
-        <div className="bg-[url('./assets/images/background-1.png')] bg-cover bg-no-repeat bg-center flex flex-col">
+        <div className="bg-[url('/assets/images/background-1.png')] bg-cover bg-no-repeat bg-center flex flex-col">
           <div className="mx-48 pt-12 flex flex-col items-center">
             <Image 
-              src="./assets/images/logo.png"
+              src="/assets/images/logo.png"
               width={400}
               height={300}
               alt="logo"
@@ -29,7 +29,7 @@ const TopSection = () => {
               <span className="text-violet-600">del Fitness</span>
             </p>
             <Image 
-              src={"./assets/images/starting-post.png"}
+              src={"/assets/images/starting-post.png"}
               width={1000}
               height={500}
               alt="starting-post"
@@ -50,7 +50,7 @@ const TopSection = () => {
 
           </div>
           <Image 
-              src={"./assets/images/transition-line.png"}
+              src={"/assets/images/transition-line.png"}
               width={500}
               height={500}
               alt="starting-post"
@@ -59,13 +59,13 @@ const TopSection = () => {
             />
 
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col gap-2 pt-36 items-center justify-center px-60">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col gap-2 pt-36 items-center justify-center px-60">
           <div id='div-1' className="flex mb-32" data-aos="fade-left" aos-duration="1000">
             <div className="text-3xl font-alexandria font-light">
               <p className="text-6xl font-bold">Te <span className="text-violet-600">gustaría</span> ser capaz de que:</p>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="check"
@@ -78,7 +78,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="check"
@@ -91,7 +91,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="check"
@@ -103,7 +103,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="check"
@@ -116,7 +116,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="check"
@@ -129,7 +129,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="check"
@@ -142,7 +142,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={80}
                   height={80}
                   alt="color-check"
@@ -154,7 +154,7 @@ const TopSection = () => {
               </div>
             </div>
             <Image 
-              src="./assets/images/phone.png"
+              src="/assets/images/phone.png"
               width={450}
               height={800}
               alt="phone"
@@ -166,7 +166,7 @@ const TopSection = () => {
             <div className="flex align-middle">
               <p className="text-4xl font-bold">¿Escéptico?</p>
               <Image 
-                src={"./assets/icons/emoji.png"}
+                src={"/assets/icons/emoji.png"}
                 width={50}
                 height={50}
                 alt="thinking-emoji"
@@ -187,14 +187,14 @@ const TopSection = () => {
 
           </div>
           <Image 
-            src={"./assets/images/phrase.png"}
+            src={"/assets/images/phrase.png"}
             width={1500}
             height={800}
             alt="phrase"
             className="max-w-[1800px] mt-18"
           />
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center 
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center 
         flex flex-col gap-4 py-24 items-center  font-alexandria font-light text-center text-3xl justify-center">
           <p>
             <span className="font-bold">La atención es cada vez menor</span>, o le das a la audiencia <br />
@@ -216,7 +216,7 @@ const TopSection = () => {
             <span className="font-bold">sino también ingresos extras gracias a esto.</span>
           </p>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col pt-12 items-center justify-between">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col pt-12 items-center justify-between">
           <div className="flex items-center">
             <div className="flex flex-col">
               <p className="font-alexandria font-bold text-left text-4xl ">
@@ -239,7 +239,7 @@ const TopSection = () => {
               </p>
             </div>
             <Image 
-              src={"./assets/images/laptop.png"}
+              src={"/assets/images/laptop.png"}
               width={600}
               height={600}
               alt="laptop"
@@ -267,9 +267,9 @@ const TopSection = () => {
           </div>
         
         </div>
-        <div className="bg-[url('./assets/images/background-3.png')] bg-cover bg-no-repeat bg-center  flex flex-col items-center">
+        <div className="bg-[url('/assets/images/background-3.png')] bg-cover bg-no-repeat bg-center  flex flex-col items-center">
           <Image 
-            src={"./assets/images/circle.png"}
+            src={"/assets/images/circle.png"}
             width={1500}
             height={800}
             alt="phrase"
@@ -312,7 +312,7 @@ const TopSection = () => {
               </p>
             </div>
             <Image 
-              src={"./assets/images/route.png"}
+              src={"/assets/images/route.png"}
               
               height={350}
               width={400}
@@ -320,10 +320,10 @@ const TopSection = () => {
               />
           </div>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
           <div>
             <Image 
-              src={"./assets/images/notice.png"}
+              src={"/assets/images/notice.png"}
               width={1200}
               height={1200}
               alt="notice"
@@ -372,7 +372,7 @@ const TopSection = () => {
               </p>
             </div>
             <Image 
-              src={"./assets/images/watches.png"}
+              src={"/assets/images/watches.png"}
               height={500}
               width={1000}
               alt="watches"
@@ -386,7 +386,7 @@ const TopSection = () => {
                 ¿Para quién es este curso?
               </p>
               <Image 
-                src={"./assets/icons/dotted-line.png"}
+                src={"/assets/icons/dotted-line.png"}
                 height={500}
                 width={800}
                 alt="dottedLine"
@@ -421,7 +421,7 @@ const TopSection = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col items-center pb-32">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col items-center pb-32">
           <div className="flex gap-8 mt-32">
             <div className="flex flex-col gap-6 font-alexandria font-light text-center text-2xl">
               <p className="font-bold text-5xl">Método <br />
@@ -459,7 +459,7 @@ const TopSection = () => {
                 <p className="font-bold">Resultado</p>
                 <div className="flex items-start justify-center gap-2">
                   <Image 
-                    src={"./assets/icons/x-mark.png"}
+                    src={"/assets/icons/x-mark.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -471,7 +471,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/x-mark.png"}
+                    src={"/assets/icons/x-mark.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -481,7 +481,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/x-mark.png"}
+                    src={"/assets/icons/x-mark.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -533,7 +533,7 @@ const TopSection = () => {
                 <p className="font-bold">Resultado</p>
                 <div className="flex items-start justify-center gap-2">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -545,7 +545,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -557,7 +557,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -569,7 +569,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -583,14 +583,14 @@ const TopSection = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
           <div className="pt-16 flex flex-col items-center pb-16">
             <p className="font-alexandria font-bold text-5xl mb-12">Base del <span className="text-violet-600">método:</span></p>
             
             <div data-aos="zoom-in" className="flex flex-col gap-6 text-white text-2xl font-light">
                 <div className="flex items-center gap-4 bg-black px-12 py-6 rounded-full">
                   <Image 
-                    src={"./assets/icons/brain.png"}
+                    src={"/assets/icons/brain.png"}
                     height={75}
                     width={75}
                     alt="brain"
@@ -604,7 +604,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black px-12 py-6 rounded-full">
                   <Image 
-                    src={"./assets/icons/ilumination.png"}
+                    src={"/assets/icons/ilumination.png"}
                     height={75}
                     width={75}
                     alt="iluminated"
@@ -618,7 +618,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black px-12 py-6 rounded-full">
                   <Image 
-                    src={"./assets/icons/megaphone.png"}
+                    src={"/assets/icons/megaphone.png"}
                     height={75}
                     width={75}
                     alt="megaphone"
@@ -632,7 +632,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black px-12 py-6 rounded-full">
                   <Image 
-                    src={"./assets/icons/heart.png"}
+                    src={"/assets/icons/heart.png"}
                     height={75}
                     width={75}
                     alt="heart"
@@ -646,7 +646,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black px-12 py-6 rounded-full">
                   <Image 
-                    src={"./assets/icons/cog.png"}
+                    src={"/assets/icons/cog.png"}
                     height={75}
                     width={75}
                     alt="cog"
@@ -660,7 +660,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black px-12 py-6 rounded-full">
                   <Image 
-                    src={"./assets/icons/inbox.png"}
+                    src={"/assets/icons/inbox.png"}
                     height={75}
                     width={75}
                     alt="inbox"
@@ -680,7 +680,7 @@ const TopSection = () => {
             <p className="font-bold text-5xl"> ¿Qué incluye <span className="text-violet-600">INSTAGROWTH?</span></p>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-1.png"}
+                src={"/assets/images/package-1.png"}
                 width={800}
                 height={500}
                 alt="package 1"
@@ -695,7 +695,7 @@ const TopSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-2.png"}
+                src={"/assets/images/package-2.png"}
                 width={800}
                 height={500}
                 alt="package 2"
@@ -708,7 +708,7 @@ const TopSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-3.png"}
+                src={"/assets/images/package-3.png"}
                 width={800}
                 height={500}
                 alt="package 3"
@@ -720,7 +720,7 @@ const TopSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-4.png"}
+                src={"/assets/images/package-4.png"}
                 width={800}
                 height={500}
                 alt="package 4"
@@ -746,7 +746,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -764,7 +764,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -782,7 +782,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -799,7 +799,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -819,7 +819,7 @@ const TopSection = () => {
           <hr className="border-1 border-slate-400 w-1/4"/>
           <div className="pt-16 flex flex-col items-center pb-36">
             <Image 
-              src={"./assets/images/price.png"}
+              src={"/assets/images/price.png"}
               width={800}
               height={1000}
               alt="price"
@@ -857,7 +857,7 @@ const TopSection = () => {
           </div>
           <div className="flex flex-col items-center gap-4 pb-24">
             <Image 
-              src={"./assets/images/whatsapp.png"}
+              src={"/assets/images/whatsapp.png"}
               width={168}
               height={168}
               alt="whatsapp logo"
@@ -875,10 +875,10 @@ const TopSection = () => {
 
       {/* Mobile view */}
       <div className="sm:hidden flex flex-col w-full">
-        <div className="bg-[url('./assets/images/background-1.png')] bg-cover bg-no-repeat bg-center flex flex-col">
+        <div className="bg-[url('/assets/images/background-1.png')] bg-cover bg-no-repeat bg-center flex flex-col">
           <div className="mx-4 pt-12 flex flex-col items-center">
             <Image 
-              src="./assets/images/logo.png"
+              src="/assets/images/logo.png"
               width={250}
               height={250}
               alt="logo"
@@ -888,7 +888,7 @@ const TopSection = () => {
               <span className="text-violet-600">del Fitness</span>
             </p>
             <Image 
-              src={"./assets/images/starting-post.png"}
+              src={"/assets/images/starting-post.png"}
               width={800}
               height={1000}
               alt="starting-post"
@@ -909,7 +909,7 @@ const TopSection = () => {
 
           </div>
           <Image 
-              src={"./assets/images/transition-line.png"}
+              src={"/assets/images/transition-line.png"}
               width={500}
               height={500}
               alt="starting-post"
@@ -918,13 +918,13 @@ const TopSection = () => {
             />
 
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col pt-16 items-center justify-center">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col pt-16 items-center justify-center">
           <div className="flex flex-col mx-4 justify-center items-center">
             <div className="text-md font-alexandria font-light">
               <p className="text-2xl font-bold">Te <span className="text-violet-600">gustaría</span> ser capaz <br /> de que:</p>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="check"
@@ -937,7 +937,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="check"
@@ -950,7 +950,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="check"
@@ -962,7 +962,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="check"
@@ -975,7 +975,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="check"
@@ -988,7 +988,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="check"
@@ -1001,7 +1001,7 @@ const TopSection = () => {
               </div>
               <div className="check_text">
                 <Image 
-                  src="./assets/icons/color-check.png" 
+                  src="/assets/icons/color-check.png" 
                   width={40}
                   height={40}
                   alt="color-check"
@@ -1013,7 +1013,7 @@ const TopSection = () => {
               </div>
             </div>
             <Image 
-              src="./assets/images/phone.png"
+              src="/assets/images/phone.png"
               width={1000}
               height={500}
               alt="phone"
@@ -1024,7 +1024,7 @@ const TopSection = () => {
             <div className="flex align-middle">
               <p className="text-2xl font-bold">¿Escéptico?</p>
               <Image 
-                src={"./assets/icons/emoji.png"}
+                src={"/assets/icons/emoji.png"}
                 width={30}
                 height={25}
                 alt="thinking-emoji"
@@ -1045,14 +1045,14 @@ const TopSection = () => {
 
           </div>
           <Image 
-            src={"./assets/images/phrase.png"}
+            src={"/assets/images/phrase.png"}
             width={400}
             height={400}
             alt="phrase"
             className="mt-8 w-full"
           />
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center 
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center 
         flex flex-col gap-4 py-16 items-center  font-alexandria font-light text-center text-sm justify-center">
           <p>
             <span className="font-bold">La atención es cada vez menor</span>, o le das a la audiencia 
@@ -1074,7 +1074,7 @@ const TopSection = () => {
             <span className="font-bold"> sino también ingresos extras gracias a esto.</span>
           </p>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col pt-12 items-center justify-between">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col pt-12 items-center justify-between">
           <div className="flex flex-col items-center">
             <div className="flex flex-col items-center gap-4">
               <p className="font-alexandria font-bold text-center text-xl ">
@@ -1097,7 +1097,7 @@ const TopSection = () => {
               </p>
             </div>
             <Image 
-              src={"./assets/images/laptop.png"}
+              src={"/assets/images/laptop.png"}
               width={400}
               height={400}
               alt="laptop"
@@ -1130,9 +1130,9 @@ const TopSection = () => {
           </div>
         
         </div>
-        <div className="bg-[url('./assets/images/background-3.png')] bg-cover bg-no-repeat bg-center  flex flex-col items-center">
+        <div className="bg-[url('/assets/images/background-3.png')] bg-cover bg-no-repeat bg-center  flex flex-col items-center">
           <Image 
-            src={"./assets/images/circle.png"}
+            src={"/assets/images/circle.png"}
             width={1500}
             height={800}
             alt="phrase"
@@ -1156,7 +1156,7 @@ const TopSection = () => {
           </div>
           <div className="flex flex-col mt-12 mb-48 items-center">
             <Image 
-              src={"./assets/images/route.png"}
+              src={"/assets/images/route.png"}
               
               height={50}
               width={300}
@@ -1188,10 +1188,10 @@ const TopSection = () => {
             
           </div>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
           <div>
             <Image 
-              src={"./assets/images/notice.png"}
+              src={"/assets/images/notice.png"}
               width={1500}
               height={1500}
               alt="notice"
@@ -1240,7 +1240,7 @@ const TopSection = () => {
               </p>
             </div>
             <Image 
-              src={"./assets/images/watches.png"}
+              src={"/assets/images/watches.png"}
               height={500}
               width={900}
               alt="watches"
@@ -1254,7 +1254,7 @@ const TopSection = () => {
                 ¿Para quién es este curso?
               </p>
               <Image 
-                src={"./assets/icons/dotted-line.png"}
+                src={"/assets/icons/dotted-line.png"}
                 height={500}
                 width={800}
                 alt="dottedLine"
@@ -1289,7 +1289,7 @@ const TopSection = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col items-center pb-32">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center bg-gray-300 flex flex-col items-center pb-32">
           <div className="flex flex-col px-6 gap-8 mt-32">
             <div className="flex flex-col gap-6 font-alexandria font-light text-center text-md">
               <p className="font-bold text-4xl">Método <br />
@@ -1327,7 +1327,7 @@ const TopSection = () => {
                 <p className="font-bold">Resultado</p>
                 <div className="flex items-center justify-center gap-2">
                   <Image 
-                    src={"./assets/icons/x-mark.png"}
+                    src={"/assets/icons/x-mark.png"}
                     height={25}
                     width={25}
                     alt="x-mark"
@@ -1339,7 +1339,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/x-mark.png"}
+                    src={"/assets/icons/x-mark.png"}
                     height={25}
                     width={25}
                     alt="x-mark"
@@ -1349,7 +1349,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/x-mark.png"}
+                    src={"/assets/icons/x-mark.png"}
                     height={25}
                     width={25}
                     alt="x-mark"
@@ -1401,7 +1401,7 @@ const TopSection = () => {
                 <p className="font-bold">Resultado</p>
                 <div className="flex items-start justify-center gap-2">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -1413,7 +1413,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -1425,7 +1425,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -1437,7 +1437,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-start justify-center gap-2 mt-4">
                   <Image 
-                    src={"./assets/icons/good-check.png"}
+                    src={"/assets/icons/good-check.png"}
                     height={50}
                     width={25}
                     alt="x-mark"
@@ -1451,14 +1451,14 @@ const TopSection = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url('./assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
+        <div className="bg-[url('/assets/images/background-2.png')] bg-cover bg-no-repeat bg-center flex flex-col items-center">
           <div className="pt-16 flex flex-col items-center pb-16">
             <p className="font-alexandria font-bold text-3xl mb-12">Base del <span className="text-violet-600">método:</span></p>
             
             <div className="flex flex-col gap-6 text-white text-sm font-light">
                 <div className="flex items-center gap-4 bg-black mx-4 px-10 py-2 rounded-full">
                   <Image 
-                    src={"./assets/icons/brain.png"}
+                    src={"/assets/icons/brain.png"}
                     height={60}
                     width={60}
                     alt="brain"
@@ -1472,7 +1472,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black mx-4 px-10 py-2 rounded-full">
                   <Image 
-                    src={"./assets/icons/ilumination.png"}
+                    src={"/assets/icons/ilumination.png"}
                     height={60}
                     width={60}
                     alt="iluminated"
@@ -1486,7 +1486,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black mx-4 px-10 py-2 rounded-full">
                   <Image 
-                    src={"./assets/icons/megaphone.png"}
+                    src={"/assets/icons/megaphone.png"}
                     height={60}
                     width={60}
                     alt="megaphone"
@@ -1500,7 +1500,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black mx-4 px-10 py-2 rounded-full">
                   <Image 
-                    src={"./assets/icons/heart.png"}
+                    src={"/assets/icons/heart.png"}
                     height={60}
                     width={60}
                     alt="heart"
@@ -1514,7 +1514,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black mx-4 px-10 py-2 rounded-full">
                   <Image 
-                    src={"./assets/icons/cog.png"}
+                    src={"/assets/icons/cog.png"}
                     height={60}
                     width={60}
                     alt="cog"
@@ -1528,7 +1528,7 @@ const TopSection = () => {
                 </div>
                 <div className="flex items-center gap-4 bg-black mx-4 px-10 py-2 rounded-full">
                   <Image 
-                    src={"./assets/icons/inbox.png"}
+                    src={"/assets/icons/inbox.png"}
                     height={60}
                     width={60}
                     alt="inbox"
@@ -1548,7 +1548,7 @@ const TopSection = () => {
             <p className="font-bold text-3xl"> ¿Qué incluye <span className="text-violet-600">INSTAGROWTH?</span></p>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-1.png"}
+                src={"/assets/images/package-1.png"}
                 width={500}
                 height={500}
                 alt="package 1"
@@ -1564,7 +1564,7 @@ const TopSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-2.png"}
+                src={"/assets/images/package-2.png"}
                 width={500}
                 height={500}
                 alt="package 2"
@@ -1578,7 +1578,7 @@ const TopSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-3.png"}
+                src={"/assets/images/package-3.png"}
                 width={500}
                 height={500}
                 alt="package 3"
@@ -1591,7 +1591,7 @@ const TopSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image 
-                src={"./assets/images/package-4.png"}
+                src={"/assets/images/package-4.png"}
                 width={500}
                 height={500}
                 alt="package 4"
@@ -1618,7 +1618,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -1636,7 +1636,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -1654,7 +1654,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -1671,7 +1671,7 @@ const TopSection = () => {
             <div>
               <div className="flex items-center gap-1">
                 <Image 
-                  src={"./assets/icons/gift.png"}
+                  src={"/assets/icons/gift.png"}
                   width={25}
                   height={25}
                   alt="gift"
@@ -1691,7 +1691,7 @@ const TopSection = () => {
           <hr className="border-1 border-slate-400 w-1/2"/>
           <div className="mx-2 pt-16 flex flex-col items-center pb-36">
             <Image 
-              src={"./assets/images/price.png"}
+              src={"/assets/images/price.png"}
               width={800}
               height={1000}
               alt="price"
@@ -1729,7 +1729,7 @@ const TopSection = () => {
           </div>
           <div className="flex flex-col items-center text-center gap-4 pb-24">
             <Image 
-              src={"./assets/images/whatsapp.png"}
+              src={"/assets/images/whatsapp.png"}
               width={250}
               height={250}
               alt="whatsapp logo"
