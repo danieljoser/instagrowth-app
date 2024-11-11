@@ -16,8 +16,14 @@ export const AOSInit = () => {
       anchorPlacement: 'top-bottom'
     });
 
-    setTimeout(() => {AOS.refresh();}, 3000);
-    console.log('reloading aos');
+    /* setTimeout(() => {AOS.refresh();}, 3000);
+    console.log('reloading aos'); */
+    let scrollRef = 0;
+
+    window.addEventListener('scroll', function() {
+    // increase value up to 10, then refresh AOS
+    scrollRef <= 10 ? scrollRef++ : AOS.refresh();
+});
     
   }, [])
 
