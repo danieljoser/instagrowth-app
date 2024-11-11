@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['@mantine/core', '@mantine/hooks', '@mantine/form'],
     
   },
-  basePath: "/",
+  basePath: "",
   reactStrictMode: true,
 };
 
